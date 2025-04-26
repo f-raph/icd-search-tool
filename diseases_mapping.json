@@ -1,0 +1,18 @@
+{
+    "Pink Eye": {
+        "code": "054.43",
+        "description": "Herpes Zoster Keratoconjunctivitis"
+    },
+    "Dry Eye": {
+        "code": "076.0",
+        "description": "Keratitis"
+    },
+    "Conjunctivitis": {
+        "code": "054.43",
+        "description": "Herpes Zoster Keratoconjunctivitis"
+    },
+    "Stroke": {
+        "code": "250.7",
+        "description": "Diabetes With Neurological Manifestations"
+    }
+}

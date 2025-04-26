@@ -1,0 +1,414 @@
+{
+    "stroke": [
+        {
+            "code": "250.7",
+            "description": "Diabetes With Neurological Manifestations"
+        }
+    ],
+    "conjunctivitis": [
+        {
+            "code": "054.43",
+            "description": "Herpes Zoster Keratoconjunctivitis"
+        },
+        {
+            "code": "372.05",
+            "description": "Conjunctivitis"
+        },
+        {
+            "code": "078.0",
+            "description": "Epidemic Hemorrhagic Conjunctivitis"
+        },
+        {
+            "code": "078.10",
+            "description": "Hemorrhagic Conjunctivitis"
+        },
+        {
+            "code": "090.0",
+            "description": "Other Viral Conjunctivitis"
+        },
+        {
+            "code": "365.65",
+            "description": "Glaucoma Associated With Ocular Inflammations"
+        },
+        {
+            "code": "370.24",
+            "description": "Superficial Keratitis Without Conjunctivitis"
+        },
+        {
+            "code": "370.3",
+            "description": "Without Conjunctivitis"
+        },
+        {
+            "code": "370.33",
+            "description": "Certain Types Of Keratoconjunctivitis"
+        },
+        {
+            "code": "370.34",
+            "description": "Phlyctenular Keratoconjunctivitis"
+        },
+        {
+            "code": "370.52",
+            "description": "Neurotrophic Keratoconjunctivitis"
+        },
+        {
+            "code": "370.54",
+            "description": "Keratitis Or Keratoconjunctivitis In Exanthema"
+        },
+        {
+            "code": "370.55",
+            "description": "Or Keratoconjunctivitis In Exanthema"
+        },
+        {
+            "code": "372.1",
+            "description": "Acute Follicular Conjunctivitis"
+        },
+        {
+            "code": "372.11",
+            "description": "Other Mucopurulent Conjunctivitis"
+        },
+        {
+            "code": "372.12",
+            "description": "Pseudomembranous Conjunctivitis"
+        },
+        {
+            "code": "372.13",
+            "description": "Acute Atopic Conjunctivitis"
+        },
+        {
+            "code": "372.14",
+            "description": "Chronic Conjunctivitis"
+        },
+        {
+            "code": "372.2",
+            "description": "Chronic Follicular Conjunctivitis"
+        },
+        {
+            "code": "372.21",
+            "description": "Vernal Conjunctivitis"
+        },
+        {
+            "code": "372.22",
+            "description": "Other Chronic Allergic Conjunctivitis"
+        },
+        {
+            "code": "372.31",
+            "description": "Parasitic Conjunctivitis"
+        },
+        {
+            "code": "372.33",
+            "description": "Blepharoconjunctivitis"
+        },
+        {
+            "code": "372.4",
+            "description": "Angular Blepharoconjunctivitis"
+        },
+        {
+            "code": "372.41",
+            "description": "Contact Blepharoconjunctivitis"
+        },
+        {
+            "code": "372.42",
+            "description": "Rosacea Conjunctivitis"
+        },
+        {
+            "code": "372.43",
+            "description": "Conjunctivitis In Mucocutaneous Disease"
+        }
+    ],
+    "pink eye": [
+        {
+            "code": "054.43",
+            "description": "Herpes Zoster Keratoconjunctivitis"
+        },
+        {
+            "code": "076.0",
+            "description": "Keratitis"
+        },
+        {
+            "code": "076.1",
+            "description": "Simplex Disciform Keratitis"
+        },
+        {
+            "code": "372.05",
+            "description": "Conjunctivitis"
+        },
+        {
+            "code": "078.0",
+            "description": "Epidemic Hemorrhagic Conjunctivitis"
+        },
+        {
+            "code": "078.10",
+            "description": "Hemorrhagic Conjunctivitis"
+        },
+        {
+            "code": "090.0",
+            "description": "Other Viral Conjunctivitis"
+        },
+        {
+            "code": "365.65",
+            "description": "Glaucoma Associated With Ocular Inflammations"
+        },
+        {
+            "code": "370.24",
+            "description": "Superficial Keratitis Without Conjunctivitis"
+        },
+        {
+            "code": "370.3",
+            "description": "Without Conjunctivitis"
+        },
+        {
+            "code": "370.31",
+            "description": "Macular Keratitis"
+        },
+        {
+            "code": "370.32",
+            "description": "Filamentary Keratitis"
+        },
+        {
+            "code": "370.33",
+            "description": "Certain Types Of Keratoconjunctivitis"
+        },
+        {
+            "code": "370.34",
+            "description": "Phlyctenular Keratoconjunctivitis"
+        },
+        {
+            "code": "370.52",
+            "description": "Neurotrophic Keratoconjunctivitis"
+        },
+        {
+            "code": "370.54",
+            "description": "Keratitis Or Keratoconjunctivitis In Exanthema"
+        },
+        {
+            "code": "370.55",
+            "description": "Or Keratoconjunctivitis In Exanthema"
+        },
+        {
+            "code": "370.59",
+            "description": "Interstitial And Deep Keratitis"
+        },
+        {
+            "code": "370.6",
+            "description": "Diffuse Interstitial Keratitis"
+        },
+        {
+            "code": "370.61",
+            "description": "Sclerosing Keratitis"
+        },
+        {
+            "code": "370.63",
+            "description": "Other Interstitial And Deep Keratitis"
+        },
+        {
+            "code": "371.03",
+            "description": "Other Forms Of Keratitis"
+        },
+        {
+            "code": "372.1",
+            "description": "Acute Follicular Conjunctivitis"
+        },
+        {
+            "code": "372.11",
+            "description": "Other Mucopurulent Conjunctivitis"
+        },
+        {
+            "code": "372.12",
+            "description": "Pseudomembranous Conjunctivitis"
+        },
+        {
+            "code": "372.13",
+            "description": "Acute Atopic Conjunctivitis"
+        },
+        {
+            "code": "372.14",
+            "description": "Chronic Conjunctivitis"
+        },
+        {
+            "code": "372.2",
+            "description": "Chronic Follicular Conjunctivitis"
+        },
+        {
+            "code": "372.21",
+            "description": "Vernal Conjunctivitis"
+        },
+        {
+            "code": "372.22",
+            "description": "Other Chronic Allergic Conjunctivitis"
+        },
+        {
+            "code": "372.31",
+            "description": "Parasitic Conjunctivitis"
+        },
+        {
+            "code": "372.33",
+            "description": "Blepharoconjunctivitis"
+        },
+        {
+            "code": "372.4",
+            "description": "Angular Blepharoconjunctivitis"
+        },
+        {
+            "code": "372.41",
+            "description": "Contact Blepharoconjunctivitis"
+        },
+        {
+            "code": "372.42",
+            "description": "Rosacea Conjunctivitis"
+        },
+        {
+            "code": "372.43",
+            "description": "Conjunctivitis In Mucocutaneous Disease"
+        }
+    ],
+    "dry eye": [
+        {
+            "code": "076.0",
+            "description": "Keratitis"
+        },
+        {
+            "code": "076.1",
+            "description": "Simplex Disciform Keratitis"
+        },
+        {
+            "code": "190.4",
+            "description": "Malignant Neoplasm Of Lacrimal Gland"
+        },
+        {
+            "code": "224.6",
+            "description": "Benign Neoplasm Of Lacrimal Gland"
+        },
+        {
+            "code": "370.24",
+            "description": "Superficial Keratitis Without Conjunctivitis"
+        },
+        {
+            "code": "370.31",
+            "description": "Macular Keratitis"
+        },
+        {
+            "code": "370.32",
+            "description": "Filamentary Keratitis"
+        },
+        {
+            "code": "370.54",
+            "description": "Keratitis Or Keratoconjunctivitis In Exanthema"
+        },
+        {
+            "code": "370.59",
+            "description": "Interstitial And Deep Keratitis"
+        },
+        {
+            "code": "370.6",
+            "description": "Diffuse Interstitial Keratitis"
+        },
+        {
+            "code": "370.61",
+            "description": "Sclerosing Keratitis"
+        },
+        {
+            "code": "370.63",
+            "description": "Other Interstitial And Deep Keratitis"
+        },
+        {
+            "code": "371.03",
+            "description": "Other Forms Of Keratitis"
+        },
+        {
+            "code": "375.13",
+            "description": "Enlargement Of Lacrimal Gland"
+        },
+        {
+            "code": "375.14",
+            "description": "Other Disorders Of Lacrimal Gland"
+        },
+        {
+            "code": "375.2",
+            "description": "Other Lacrimal Cysts And Cystic Degeneration"
+        },
+        {
+            "code": "375.21",
+            "description": "Primary Lacrimal Atrophy"
+        },
+        {
+            "code": "375.22",
+            "description": "Secondary Lacrimal Atrophy"
+        },
+        {
+            "code": "375.31",
+            "description": "Dislocation Of Lacrimal Gland"
+        },
+        {
+            "code": "375.5",
+            "description": "Chronic Inflammation Of Lacrimal Passages"
+        },
+        {
+            "code": "376.01",
+            "description": "Of Lacrimal Passages"
+        },
+        {
+            "code": "375.53",
+            "description": "Eversion Of Lacrimal Punctum"
+        },
+        {
+            "code": "375.54",
+            "description": "Stenosis Of Lacrimal Punctum"
+        },
+        {
+            "code": "375.56",
+            "description": "Stenosis Of Lacrimal Canaliculi"
+        },
+        {
+            "code": "375.57",
+            "description": "Of Lacrimal Canaliculi"
+        },
+        {
+            "code": "375.6",
+            "description": "Stenosis Of Lacrimal Sac"
+        },
+        {
+            "code": "375.61",
+            "description": "Of Nasolacrimal Duct Neonatal"
+        },
+        {
+            "code": "375.69",
+            "description": "Stenosis Of Nasolacrimal Duct Acquired"
+        },
+        {
+            "code": "375.89",
+            "description": "Lacrimal Fistula"
+        },
+        {
+            "code": "376.02",
+            "description": "Other Disorders Of Lacrimal System"
+        },
+        {
+            "code": "376.03",
+            "description": "Granuloma Of Lacrimal Passages"
+        },
+        {
+            "code": "376.1",
+            "description": "Disorder Of Lacrimal System"
+        },
+        {
+            "code": "743.69",
+            "description": "Specified Congenital Anomaly Of Lacrimal Gland"
+        },
+        {
+            "code": "743.8",
+            "description": "Specified Congenital Anomaly Lacrimal Passages"
+        },
+        {
+            "code": "780.4",
+            "description": "Anomalies Eyeld Lacrimal System"
+        },
+        {
+            "code": "870.8",
+            "description": "Laceration Of Eyelid Involving Lacrimal Passages"
+        },
+        {
+            "code": "940.0",
+            "description": "Foreign Body In Lacrimal Punctum"
+        }
+    ]
+}
