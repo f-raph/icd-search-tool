@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICD Search Tool</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <h2 class="title">ICD Code Search</h2>
+
+        <!-- Patient ID (Optional for now) -->
+        <div class="form-group mb-3">
+            <label class="form-label">Patient ID</label>
+            <input type="text" class="form-control" id="patientId" value="P001" readonly>
+        </div>
+
+        <!-- Search Input -->
+        <div class="form-group position-relative mb-3">
+            <label class="form-label">Search by Disease or ICD Code</label>
+            <input type="text" class="form-control" id="codeInput" placeholder="Type disease or ICD code...">
+            <div id="searchResults" class="search-results"></div>
+        </div>
+
+        <!-- Selected Diagnosis -->
+        <div class="form-group mb-3">
+            <label class="form-label">Selected Diagnosis</label>
+            <input type="text" class="form-control" id="diagnosis" readonly>
+        </div>
+
+        <div class="button-group mb-3">
+            <button class="save-btn" id="addBtn">Add Diagnosis</button>
+            <button class="export-btn" id="exportBtn">Export Patient Data</button>
+        </div>
+
+        <p class="note">Note: Information will be shared with the Pharmacy team after export.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/js/app.js" defer></script>
+</body>
+
+</html>

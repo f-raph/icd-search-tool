@@ -1,0 +1,9 @@
+{
+    "patient_id": "P001",
+    "diagnoses": [
+        {
+            "icdCode": "076.0",
+            "diagnosis": "Keratitis"
+        }
+    ]
+}
