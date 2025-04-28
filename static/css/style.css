@@ -76,11 +76,29 @@ body {
   cursor: pointer;
 }
 
+.search-result-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease; /* Smooth animation */
+}
+
 .search-result-item:hover {
-  background-color: #f8f9fa;
+  background-color: #96d0f5;
+  transform: translateX(5px); /* Slight slide to the right */
 }
 
 .button-group {
   display: flex;
   gap: 10px;
+}
+
+.disease-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #333;
+}
+
+.icd-code {
+  font-size: 0.85rem;
+  color: #777;
 }

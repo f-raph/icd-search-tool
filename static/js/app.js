@@ -29,10 +29,20 @@ function displaySearchResults(results) {
   results.forEach((result) => {
     const div = document.createElement("div");
     div.className = "search-result-item";
-    div.textContent = `${result.description} (${result.code})`;
+    div.innerHTML = `
+            <div class="disease-name">${result.description}</div>
+            <div class="icd-code">ICD Code: ${result.code}</div>
+        `;
     div.addEventListener("click", () => selectDiagnosis(result));
     searchResults.appendChild(div);
   });
+  // results.forEach((result) => {
+  //   const div = document.createElement("div");
+  //   div.className = "search-result-item";
+  //   div.textContent = `${result.description} (${result.code})`;
+  //   div.addEventListener("click", () => selectDiagnosis(result));
+  //   searchResults.appendChild(div);
+  // });
 
   searchResults.style.display = "block";
 }
