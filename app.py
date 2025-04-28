@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 import json
 import os
+from rapidfuzz import process, fuzz
 
 app = Flask(__name__)
 
@@ -25,9 +26,25 @@ def search():
     query = request.args.get('query', '').lower()
     results = []
 
+    if not query:
+        return jsonify({"results": results})
+
+    # Prepare disease name list
+    disease_names = list(icd_data.keys())
+
+    # Fuzzy match disease names
+    disease_matches = process.extract(query, disease_names, scorer=fuzz.WRatio, limit=10)
+
+    # Add diseases matching fuzzily
+    for disease, score, _ in disease_matches:
+        if score >= 60:  # Only accept good matches
+            results.extend(icd_data[disease])
+
+    # ALSO search in ICD codes exactly (no fuzzy matching on codes)
     for disease, entries in icd_data.items():
-        if query in disease.lower() or any(query in e["code"] for e in entries):
-            results.extend(entries)
+        for entry in entries:
+            if query in entry["code"].lower():
+                results.append(entry)
 
     return jsonify({"results": results})
 
@@ -37,7 +54,8 @@ def add_diagnosis():
     data = request.json
     diagnosis = {
         "icdCode": data.get("icdCode"),
-        "diagnosis": data.get("diagnosis")
+        "diagnosis": data.get("diagnosis"),
+        "treatmentPlan": data.get("treatmentPlan") 
     }
     patient_data["diagnoses"].append(diagnosis)
     return jsonify({"message": "Diagnosis added successfully"})

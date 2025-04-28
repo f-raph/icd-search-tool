@@ -2,8 +2,9 @@
     "patient_id": "P001",
     "diagnoses": [
         {
-            "icdCode": "076.0",
-            "diagnosis": "Keratitis"
+            "icdCode": "370.32",
+            "diagnosis": "Filamentary Keratitis",
+            "treatmentPlan": "euuuuuu"
         }
     ]
 }

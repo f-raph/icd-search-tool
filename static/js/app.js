@@ -53,9 +53,10 @@ function selectDiagnosis(result) {
 async function addDiagnosis() {
   const icdCode = document.getElementById("addBtn").dataset.code;
   const diagnosis = document.getElementById("addBtn").dataset.description;
+  const treatmentPlan = document.getElementById("treatmentPlan").value;
 
-  if (!icdCode || !diagnosis) {
-    alert("Please select a diagnosis first!");
+  if (!icdCode || !diagnosis || !treatmentPlan) {
+    alert("Please fill out ICD code, diagnosis, and treatment plan");
     return;
   }
 
@@ -63,13 +64,17 @@ async function addDiagnosis() {
     const response = await fetch("/api/diagnosis/add/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ icdCode, diagnosis }),
+      body: JSON.stringify({ icdCode, diagnosis, treatmentPlan }),
     });
 
-    const data = await response.json();
-    alert(data.message);
+    const result = await response.json();
+    if (response.ok) {
+      alert(result.message);
+    } else {
+      throw new Error(result.error || "Failed to add diagnosis");
+    }
   } catch (error) {
-    alert("Error adding diagnosis: " + error.message);
+    alert(error.message);
   }
 }
 
