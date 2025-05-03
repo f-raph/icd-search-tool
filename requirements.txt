@@ -41,3 +41,4 @@ urllib3==2.2.3
 uuid==1.30
 Werkzeug==3.0.4
 wheel==0.45.0
+gunicorn
