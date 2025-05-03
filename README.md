@@ -7,6 +7,7 @@
 [![Status](https://img.shields.io/badge/Status-Active-success.svg)](#)
 
 The **ICD Search Tool** is a lightweight web application that allows healthcare professionals to quickly search for diseases and corresponding ICD codes using intelligent fuzzy search. Doctors can select a diagnosis, create a treatment plan, save it to a patient record, and export the patient's data for further processing (e.g., pharmacy, insurance, or EHR systems).
+**Link**: https://icd-search-tool-hqq8.onrender.com/
 
 ---
 
